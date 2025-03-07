@@ -5,7 +5,7 @@ import "./index.css";
 function Calender() {
   const today = new Date();
   const todayFormatted = today.toLocaleDateString("en-US", {
-    month: "short",
+    month: "long",
     day: "numeric",
   });
 
