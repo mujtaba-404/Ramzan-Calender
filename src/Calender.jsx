@@ -61,7 +61,7 @@ function Calender() {
       {/* Search Input */}
       <input
         type="text"
-        placeholder="Search by Date (Mar 10) or Day (Tuesday)"
+        placeholder="Search by Date (March 10) or Day (Tuesday)"
         value={search}
         onChange={handleSearch}
         className="p-2 text-white w-full max-w-md rounded-lg  border-2 border-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400 mb-4"
