@@ -80,8 +80,10 @@ function Calender() {
             🌅 Iftar: <span className="text-yellow-300">{filteredData.Iftari}</span>
           </p>
         </div>
-      ) :  ( alert("Annii deyaa Pagal hai?? ")
-      
+      ) : (
+        <p className="text-red-500 text-lg md:text-xl">
+         Anni deyaaa Pagal hai??  "{search}" 
+        </p>
       )}
     </div>
   );
