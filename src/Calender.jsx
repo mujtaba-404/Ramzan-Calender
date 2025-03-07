@@ -30,7 +30,7 @@ function Calender() {
     nextDate.setDate(today.getDate() + daysToAdd);
 
     const formattedNextDate = nextDate.toLocaleDateString("en-US", {
-      month: "short",
+      month: "long",
       day: "numeric",
     });
 
